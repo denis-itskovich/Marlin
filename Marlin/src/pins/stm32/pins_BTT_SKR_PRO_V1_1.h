@@ -49,8 +49,8 @@
 //#define Y_MAX_PIN          PE10
 #define FIL_RUNOUT2_PIN     PE10
 
-//#define Z_MIN_PIN          PG8
-#define Z_MIN_PIN          PA2
+#define Z_MIN_PIN          PG8
+//#define Z_MIN_PIN          PA2
 //#define Z_MAX_PIN          PG5
 #define FIL_RUNOUT3_PIN    PG5
 
