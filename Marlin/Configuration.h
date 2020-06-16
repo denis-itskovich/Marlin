@@ -575,7 +575,7 @@
  * Note: For Bowden Extruders make this large enough to allow load/unload.
  */
 #define PREVENT_LENGTHY_EXTRUDE
-#define EXTRUDE_MAXLENGTH 600
+#define EXTRUDE_MAXLENGTH 800
 
 //===========================================================================
 //======================== Thermal Runaway Protection =======================
@@ -963,7 +963,7 @@
 // Certain types of probes need to stay away from edges
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
-#define MIN_PROBE_EDGE 30
+#define MIN_PROBE_EDGE 70
 
 // X and Y axis travel speed (mm/m) between probes
 #define XY_PROBE_SPEED 8000
@@ -1368,7 +1368,7 @@
 
 // Homing speeds (mm/m)
 #define HOMING_FEEDRATE_XY (50*60)
-#define HOMING_FEEDRATE_Z  (7*60)
+#define HOMING_FEEDRATE_Z  (6*60)
 
 // Validate that endstops are triggered on homing moves
 #define VALIDATE_HOMING_ENDSTOPS
